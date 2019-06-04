@@ -1,0 +1,46 @@
+#board{
+    /* background-color:blue; */
+    background: radial-gradient(rgba(0, 240, 255, 0.5), rgba(0, 0, 255, 0.5));
+    /* opacity: 0.7; */
+}
+
+tr{
+    height: 60px;
+}
+
+td.cell{
+    background-color:rgba(0, 0, 0, 0.8);
+    /* background: radial-gradient(#222222, black); */
+    width: 60px;
+    font-size:35px;
+    text-align: center;
+}
+
+td.black{
+    color:black;
+    text-shadow: 0 0 6px skyblue;
+}
+
+td.white{
+    color:white;
+    text-shadow: 0 0 6px skyblue;
+}
+
+.type1{
+    width: 50px;
+    display:none;
+}
+
+body{
+    /* background-color:black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+  url(img/space.jpg);
+  background-size: cover;
+}
+ h2{
+     color:white;
+ }
